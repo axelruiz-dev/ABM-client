@@ -1,0 +1,46 @@
+.container {
+    text-align: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0d67a3;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #1c70b5;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
